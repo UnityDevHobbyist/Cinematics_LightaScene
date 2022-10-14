@@ -50,6 +50,7 @@ public class LightingScript : MonoBehaviour
                             Light myLight;
                             myLight = child_3.GetComponent<Light>();
                             myLight.intensity = .5f;
+                            myLight.shadows = LightShadows.Hard;
                         }
                     }
                 }
